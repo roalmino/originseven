@@ -20,31 +20,34 @@
               alt="Selo Rocketseat"
             />
           </span>
-          <img src="images/people.jfif" alt="Foto pessoal" />
+          <img id="userImage" src="images/people.jfif" alt="Foto pessoal" />
         </div>
-        <h1>Rodrigo Almino</h1>
-        <a href="https://www.instagram.com/rodsauro/">
-          <img src="images/github.svg" alt="github" /> rodsauro</a
+        <h1 id="userName">Rodrigo Bandeira</h1>
+        <a id="userLink" href="https://github.com/rodsauro" target="_blank">
+          <img src="images/github.svg" alt="github" />
+          <span id="userLogin">rodsauro</span></a
         >
-        <p>An intructor focused on helping people start programming for web</p>
+        <p id="userBio">
+          An intructor focused on helping people start programming for web
+        </p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="" target="_blank"
               ><img src="images/youtube.svg" alt="youtube"
             /></a>
           </li>
-          <li>
+          <li class="facebook">
             <a href="" target="_blank"
               ><img src="images/facebook.svg" alt="facebook"
             /></a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://www.instagram.com/rodsauro/" target="_blank"
               ><img src="images/intagram.svg" alt="instagram"
             /></a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="" target="_blank"
               ><img src="images/twitter.svg" alt="twitter"
             /></a>
@@ -53,13 +56,6 @@
       </div>
     </main>
 
-    <script>
-      const user = {
-        name: 'Emilly',
-        accept: true
-      }
-      user.name = 'Pedro'
-      alert(user.name)
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
